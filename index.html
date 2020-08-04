@@ -9,9 +9,57 @@
         <link rel="stylesheet" href="styles.scss">
     </head>
     <body>
-        <form action="https://google.com/search">
-            <input type="text" name="">
-            <input type="submit" value="Google Search">
+        <header>
+            <nav>
+                <ul class="nav nav-tabs justify-content-end">
+                <li class="nav-item ">
+                    <a class="nav-link" href="#" >Gmail</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" >Images</a>
+                </li>
+                <li class="nav-item">
+                    <img class="img-fluid" href="#" src="images/9_dot_icon.png"></img>
+                </li>
+                <li class="nav-item">
+                    <button type="button" class="btn btn-primary">Sign In</button>
+                </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="align-self-center">
+                    <img class="img-fluid" src="images/google_color.png">
+                </div>
+            </div>
+        </div>
+        <form action="www.google.com/search" >
+            <div class="form-group">
+                <div class="input-group">
+                    <img class="control-label"
+                        src="images/google_search_icon.png">
+                </div>
+                <input type="text" class="rounded-pill form-control">
+                <div class="input-group-addon">
+                    <span class="image-fluid" src="images/google_mic_icon.png">
+                </div>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn btn-lg">Google Search
+                </button>
+                <button type="submit" class="btn btn-light btn-lg">I'm Feeling Lucky </button>
+            </div>
         </form>
+        <div class="languages"></div>
+            <div class="text-center">
+                <p>Google offered in:
+                    <a href="#" >español</a>
+                    <a href="#" >català</a>
+                    <a href="#" >galego</a>
+                    <a href="#" >euskara</a>
+                </p>
+            </div>
+        </div>
     </body>
 </html>
