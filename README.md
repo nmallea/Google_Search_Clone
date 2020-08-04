@@ -1,2 +1,2 @@
 # cs50_search
- Google Search Clone
+ Harvard CS50 -- Project 90 / Google Search Clone
