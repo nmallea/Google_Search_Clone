@@ -4,9 +4,10 @@
         <title>Search</title>
         <meta charset="utf-8">
         <meta name="viewport' content="width:device-width initial-scale:1">
-        <link rel="Icon Shortcut" href="" type="" alt="">
+        <link rel="Icon Shortcut" href="images/google_flavicon.png" type="image/png" alt="Google Flavicon">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-        <link rel="stylesheet" href="styles.scss">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <header>
@@ -26,40 +27,39 @@
                 </li>
                 </ul>
             </nav>
-        </header>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="align-self-center">
-                    <img class="img-fluid" src="images/google_color.png">
+            </header>
+            <div class="container-fluid">
+                <div class=>
+                    <div class="text-center">
+                        <img class="img-fluid" src="images/google_color.png">
+                    </div>
                 </div>
-            </div>
-        </div>
-        <form action="www.google.com/search" >
-            <div class="form-group">
-                <div class="input-group">
-                    <img class="control-label"
-                        src="images/google_search_icon.png">
-                </div>
-                <input type="text" class="rounded-pill form-control">
-                <div class="input-group-addon">
-                    <span class="image-fluid" src="images/google_mic_icon.png">
+                <form action="www.google.com/search" >
+                    <div class="form-group">
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                              <img class="image-fluid" src="images/google_search_icon.png"></span>
+                            </div>
+                            <input type="text" class="rounded-pill form-control">
+                            <div class="input-group-append">
+                              <img class="image-fluid" src="images/google_mic_icon.png"></span>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="text-center">
+                    <button type="submit" >Google Search </button>
+                    <button  type="submit" >I'm Feeling Lucky </button>
                 </div>
             </div>
             <div class="text-center">
-                <button type="submit" class="btn btn btn-lg">Google Search
-                </button>
-                <button type="submit" class="btn btn-light btn-lg">I'm Feeling Lucky </button>
-            </div>
-        </form>
-        <div class="languages"></div>
-            <div class="text-center">
-                <p>Google offered in:
+                <span>Google offered in:
                     <a href="#" >español</a>
                     <a href="#" >català</a>
                     <a href="#" >galego</a>
                     <a href="#" >euskara</a>
-                </p>
+
+                </span>
             </div>
-        </div>
     </body>
 </html>

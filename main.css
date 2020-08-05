@@ -1,8 +1,46 @@
-.google-image {
-  display: flex;
-  margin: 0 auto;
-}
 .languages {
   padding: 50px;
   border: 50px;
+}
+
+.img-fluid {
+  width: 20%;
+}
+
+.container-fluid {
+  padding-top: 150px;
+}
+
+.btn {
+  padding: 15px;
+}
+
+.form-group {
+  padding-left: 400px;
+  padding-right: 400px;
+}
+.input-icons i {
+  position: absolute;
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.icon {
+  padding: 10px;
+  min-width: 40px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+.container {
+  padding: 100px;
+  margin: 100px;
+  border: 5px darkgray;
+  border-radius: 10px;
 }
