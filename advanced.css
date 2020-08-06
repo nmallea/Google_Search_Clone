@@ -14,42 +14,50 @@
   font-size: 20px;
   margin: 25px 35px;
 }
+
 .form_advanced_search {
   padding-left: 35px;
 }
+
 .row {
   padding-bottom: 10px
 }
+
 .advanced_heading {
   font-family: Arial, sans-serif;
   color: #333;
   font-size: 16px;
   font-weight: 500;
 }
+
 .advanced_subheading {
   font-family: Arial, sans-serif;
   color: #777;
   font-size: 13px;
   font-weight: 700;
 }
+
 .search_rules {
   font-family: Arial, sans-serif;
   font-size: 13px;
   line-height: 16px;
   color: #222;
 }
+
 .search_desc {
   color: #555;
   font-size: 11px;
   vertical-align: middle;
   position: relative;
 }
+
 .adv_submit {
   background-color: #4d90fe;
   border: 1px solid #3079ed;
   color: #fff;
   float: right;
 }
+
 .span {
   color: #666;
   font-family: monospace;
