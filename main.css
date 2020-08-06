@@ -1,4 +1,30 @@
+
+/* Search home page */
+.nav-item {
+  padding: 10px;
+  font-size: 13px;
+}
+.nav-link {
+  padding-top: 15px;
+  color: #222;
+}
+.nav-tabs {
+  border-bottom: none;
+}
+
+.search_buttons {
+  padding: 25px;
+}
+
+.submit_button {
+  background-color: #e5e5e5;
+  border: none;
+  padding: 10px;
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+}
 .languages {
+  font-size: small;
   padding: 50px;
   border: 50px;
 }
@@ -43,4 +69,38 @@
   margin: 100px;
   border: 5px darkgray;
   border-radius: 10px;
+}
+/* Google image search */
+.navbar {
+  background-color: #f1f1f1;
+  height: 60px;
+}
+
+.logo_home {
+  width: 80px;
+}
+/* google searchbar */
+
+.search_bar {
+  max-width: 600px;
+  margin: auto;
+  height: 40px;
+  border: 1px solid darkgrey;
+  border-radius: 15px;
+}
+.form-control {
+  display: flex;
+  align-content: flex-start;
+  border: none;
+}
+.google_search_icon {
+  height: 24px;
+  width: 24px;
+  align-items: middle;
+}
+.google_mic_icon {
+  height: 24px;
+  width: 24px;
+  vertical-align: middle;
+  align-content: flex-end;
 }
