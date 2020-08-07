@@ -1,7 +1,9 @@
-
-$font-family: Arial, sans-serif;
-
 /* Search home page */
+
+*:focus {
+  outline: none;
+}
+
 .nav-item {
   padding: 10px;
   font-size: 13px;
@@ -16,7 +18,7 @@ $font-family: Arial, sans-serif;
   border-bottom: none;
 }
 
-.search_buttons {
+.search-buttons {
   padding: 25px;
 }
 
@@ -33,12 +35,30 @@ $font-family: Arial, sans-serif;
   align-self: auto;
 }
 
-.submit_button {
-  background-color: #e5e5e5;
-  border: none;
-  padding: 10px;
-  font-size: 13px;
-  font-family: $font-family;
+.submit-button {
+  background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  color: #5F6368;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.submit-button:hover {
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  color: #222;
 }
 
 .languages {
@@ -88,11 +108,10 @@ $font-family: Arial, sans-serif;
 
 /* Google image search */
 .navbar {
-  /* background-color: #f1f1f1; */
   height: 60px;
 }
 
-.logo_home {
+.logo-home {
   width: 80px;
 }
 
@@ -102,12 +121,17 @@ $font-family: Arial, sans-serif;
 
 /* google searchbar */
 
-.search_bar {
+.search-bar {
   max-width: 600px;
   margin: auto;
   height: 40px;
   border: 1px solid darkgrey;
-  border-radius: 15px;
+  border-radius: 24px;
+}
+
+.search-bar:hover {
+  box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+  border-color: rgba(223,225,229,0);
 }
 
 .form-control {
@@ -116,11 +140,16 @@ $font-family: Arial, sans-serif;
   border: none;
 }
 
-.google_search_icon {
+.form-control:focus,
+.submit-button:focus {
+  box-shadow: none;
+}
+
+.google-search-icon {
   padding-left: 16px;
 }
 
-.google_mic_icon {
+.google-mic-icon {
   height: 24px;
   display: flex;
   justify-content: flex-end;
